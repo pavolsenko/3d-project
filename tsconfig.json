@@ -1,46 +1,44 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "@/*": [
-                "app/*",
-                "src/*"
-            ]
-        },
-        "target": "es5",
-        "lib": [
-            "dom",
-            "dom.iterable",
-            "esnext"
-        ],
-        "allowJs": true,
-        "skipLibCheck": true,
-        "strict": false,
-        "forceConsistentCasingInFileNames": true,
-        "noEmit": true,
-        "incremental": true,
-        "esModuleInterop": true,
-        "module": "esnext",
-        "moduleResolution": "node",
-        "isolatedModules": true,
-        "jsx": "preserve",
-        "resolveJsonModule": true,
-        "plugins": [
-            {
-                "name": "next"
-            }
-        ],
-        "typeRoots": ["./node_modules/@types", "./src"]
-
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "app/*",
+        "src/*"
+      ]
     },
-    "include": [
-        "next-env.d.ts",
-        "**/*.ts",
-        "**/*.tsx",
-        ".next/types/**/*.ts",
-        "src/custom-three-elements.d.ts"
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
-    "exclude": [
-        "node_modules"
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
     ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/custom-three-elements.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
